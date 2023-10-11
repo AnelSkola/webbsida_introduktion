@@ -1,0 +1,92 @@
+header {
+    color: blue;
+    font-size: 100px;
+    position: relative;
+    z-index: 1000;
+    text-align: center;
+    padding: 30px 14%;
+    transition: all 0.50s ease;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.grid-container :hover{
+    color: lightblue ;
+}
+
+.grid-item-2 :hover{
+    color: lightblue ;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: linear-gradient(to right, red , orange);
+    font: 'Roboto Condensed';
+}
+
+.grid-container {
+    font-size: 30px;
+    display: grid;
+    grid-template-columns:repeat(4, minmax(0, 1fr));
+    grid-auto-rows: auto;
+    grid-column-gap: 100px;
+    padding-left: 40px;
+    
+
+}
+
+.line {
+    margin-top: 150px;
+ 
+}
+
+.bottom-container
+{
+        font-size: 30px;
+        display: grid;
+        padding-left: 75px; 
+        grid-template-columns:repeat(2, minmax(0, 1fr));
+        grid-auto-rows: auto;
+        grid-column-gap: 100px;
+
+}
+
+
+
+
+.bottom-grid-item{
+    border-radius: 20px;
+    background:  linear-gradient(to left,yellow , orange);;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;
+    display: flex;
+     
+    
+}
+
+.bottom-grid-item{
+    text-align:center;
+  vertical-align:center;
+  align-self:center;
+}
+
+
+.home-img img{
+    width: 30%;
+    max-width: 300px;
+    height: auto;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+}
+
